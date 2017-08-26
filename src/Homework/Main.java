@@ -20,13 +20,10 @@ public class Main {
 			boolean juriOrFisi = data.testingcompany();
 			if (juriOrFisi == true){
 				name = JOptionPane.showInputDialog("Digite o nome de sua empresa:");
-				data.setName(name);
 			}else{
 				name =  JOptionPane.showInputDialog("Digite seu nome completo:");
-				data.setName(name);
 			}
 			product = JOptionPane.showInputDialog("Digite o nome do produto:");
-			data.setProduct(product);
 			value = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do produto:"));
 			data.setvalue(value);
 			boolean porOrDis = data.testingPortionOrDiscount();

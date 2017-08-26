@@ -13,7 +13,7 @@ public class Payments {
 	}
 	
 	public double getValuePortionFisi() {
-		int port = 5 * this.portion;
+		int port = 3 * this.portion;
 		return this.Value + port;
 	}
 	

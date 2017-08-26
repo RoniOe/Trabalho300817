@@ -17,14 +17,5 @@ public class Data extends Payments{
 		}else{
 			return false;
 		}
-		
-	}
-	
-	public void setName(String Name) {
-		this.companyOrPerson = Name;
-	}
-	
-	public void setProduct(String Product) {
-		this.companyOrPerson = Product;
 	}
 }
